@@ -1,0 +1,30 @@
+{
+  "name": "responsive-carousal",
+  "version": "1.0.0",
+  "description": "Using Custom js and HTML Create Responsive Carousal ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 5000\" \"open http://localhost:5000/build\"",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishek-officia/assignment.git"
+  },
+  "author": "Abhishek Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishek-officia/assignment/issues"
+  },
+  "homepage": "https://github.com/Abhishek-officia/assignment#readme",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "http-server": "^0.12.3",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

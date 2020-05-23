@@ -43,13 +43,13 @@ body {
       background-attachment: fixed;
       background-position: center center; }
       .slider .slider-inner .slide.slide1 {
-        background-image: url("/img/slide-1.jpg"); }
+        background-image: url("../img/slide-1.jpg"); }
       .slider .slider-inner .slide.slide2 {
-        background-image: url("/img/slide-2.jpg"); }
+        background-image: url("../img/slide-2.jpg"); }
       .slider .slider-inner .slide.slide3 {
-        background-image: url("/img/slide-3.jpg"); }
+        background-image: url("../img/slide-3.jpg"); }
       .slider .slider-inner .slide.slide4 {
-        background-image: url("/img/slide-4.jpg"); }
+        background-image: url("../img/slide-4.jpg"); }
       .slider .slider-inner .slide img {
         display: block;
         width: 100%; }
